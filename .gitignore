@@ -1,0 +1,137 @@
+OS cruft
+.DS_Store
+Thumbs.db
+Icon?
+ehthumbs.db
+
+Python bytecode/cache
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+Virtual envs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+.conda/
+.terraform/
+
+Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+.profile
+.cache/
+*.egg-info/
+
+Build/dist
+build/
+dist/
+site/
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+*.spec
+
+IDE/Editor
+.vscode/
+.vscode-*
+.vscode/settings.json
+.idea/
+.sublime-
+*.code-workspace
+
+Data/artifacts (keep the repo clean)
+examples/outputs/
+examples/outputs//*
+outputs/
+outputs//*
+extracted_images/
+extracted_images//*
+medical_only/
+medical_only//*
+predictions.csv
+classification_results.txt
+*.tmp
+tmp/
+temp/
+*.bak
+
+Models and large binaries
+models/
+model/
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.onnx
+*.ckpt
+checkpoint/
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+
+Datasets / archives (track via releases or DVC instead)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.xz
+.bz2
+data/
+dataset/
+datasets/
+binary_medical_classifier/
+binary_medical_classifier_fixed/
+example/medmnist_multiversion/**/.zip
+
+Images and renders created during runs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.webp
+
+Credentials / secrets (never commit)
+.key
+.pem
+.crt
+.env.local
+.env.
+secrets/
+secret.
+credentials.
+token_
+
+Notebooks’ auto-saves and outputs
+*.ipynb_checkpoints
+*.out.ipynb
+*.orig.ipynb
+
+OS-specific temp
+~$*
+*.swp
+*.swo
+
+Node/Front-end (if any future UI creeps in)
+node_modules/
+package-lock.json
+yarn.lock
+
+Mac quarantine attrs
+*.icloud

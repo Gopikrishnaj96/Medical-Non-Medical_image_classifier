@@ -1,0 +1,10 @@
+DATASET VERSION V5 SUMMARY (NO 3D DATA)
+==================================================
+Train images: 600
+Test images: 150
+Total images: 750
+No overlap guarantee: YES
+Modalities: X-ray (50%), 2D CT (37.5%), Ultrasound (12.5%)
+EXCLUDED: All 3D CT datasets (20% of original data)
+WARNING: Dataset too small AND less diverse
+PROBLEM: You're optimizing in the wrong direction
